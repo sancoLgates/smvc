@@ -49,7 +49,7 @@ class Framework {
 
 	    define("PLATFORM", isset($_REQUEST['p']) ? $_REQUEST['p'] : 'home');
 
-	    define("CONTROLLER", isset($_REQUEST['c']) ? $_REQUEST['c'] : 'Index');
+	    define("CONTROLLER", isset($_REQUEST['c']) ? $_REQUEST['c'] : 'user');
 
 	    define("ACTION", isset($_REQUEST['a']) ? $_REQUEST['a'] : 'index');
 

@@ -1,9 +1,6 @@
 <?php
 
-// application/controllers/admin/IndexController.class.php
-
-
-class IndexController extends Controller{
+class UserController extends Controller{
 
     public function mainAction(){
 
@@ -31,6 +28,10 @@ class IndexController extends Controller{
 
         var_dump($ins);
         include CURR_VIEW_PATH . "main.php";
+    }
+
+    public function createAction(){
+        
     }
 
     public function indexAction(){
